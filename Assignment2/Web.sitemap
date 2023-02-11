@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="*" title="Default"  description="This takes us back to the home page">
+    <siteMapNode url="~/Default.aspx" title="Home"  description="Takes us to the starting page" />
+    <siteMapNode url="~/GoodWebsite/GoodWebsite.aspx" title="Good Websites"  description="List of good websites" />
+    <siteMapNode url="~/PoorWebsite/PoorWebsite.aspx" title="Poor Websites"  description="List of poor websites" />
+    <siteMapNode url="~/Registration/Registration.aspx" title="Register For Updates"  description="Click me to register">
+      <siteMapNode url="~/Registration/ShowRegistrations.aspx" title="Show Registrations" description="See our registrations"/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Samuel Greenlee's Website Analysis</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <header>
+            <p class="centerBold">Samuel Greenlee&#39;s Website Analysis</p>
+        </header>
+        <nav>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;
+            &nbsp;&nbsp;&nbsp;
+            
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="1.5em" ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px">
+                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="#FFFBD6" />
+                <DynamicSelectedStyle BackColor="#FFCC66" />
+                <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticSelectedStyle BackColor="#FFCC66" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+
+        </nav>
+        <main>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+                <p class="centerBold">List of 20 attributes of a good web site</p>
+
+                <p>1. One good attribute of a good website is dynamic navigation. Which presents the user of the web site good, clean, navigation.</p>
+
+                <p>2. Another good attribute of a good website is good contrast. All the website elements should blend in with each other without it appearing as an odd assortment.</p>
+
+                <p>3. Thirdly, a website should have a repetitive feeling such as all the backgrounds or navigation bars are in the same place throughout the website. That way the user is not
+ 	                   confused on what to click, or what they are seeing throughout each page on the website.</p> 
+
+                <p>4. Next, everything should be aligned on each webpage of the website so that the user can get an easy website to read, click, and interact with the website.</p>  
+
+                <p>5. A good attribute of a website is its ability to allow the user navigation bars for the use of simple navigation. Just being able to let the user navigate through
+ 	                   the website at the top to each webpage saves the user time and effort navigating the website.</p> 
+
+                <p>6. Speedy loading of each of your webpages throughout the website is a good attribute to have. This will save the user their time just sitting and waiting
+ 	                for the webpage to load. No one like the one website that has thirteen pop ups on it before you even get to read the article that is written.</p> 
+
+                <p>7. Another good attribute to have on your website is breadcrumb navigation. This allows the user to navigate throughout the webpage easily and effortlessly.</p> 
+
+                <p>8. Next, would be the proximity of each element placed on each webpage throughout the website. No one wants to have the website looking like a jumbled-up mess.</p> 
+
+                <p>9. Having the ability to reach your audience that you have selected to appeal to is one of the best attributes to have going on in your website. It reaches the audience and 
+	                makes them gravitate towards the things you want them to focus on in your website.</p>
+
+                <p>10. Also, having the ability to have each webpage be mythologically lined up via hyperlinks with the next throughout your website, will make it extremely easy to figure
+	                 out what’s where. Which, is by far, one of the best attributes to have running throughout your website.</p>
+
+                <p>11. Another grate attribute of a website to keep in mind is the grammar. There’s nothing like reading a quarter of the way through an article while already having five
+	                 grammar mistakes counted out on your fingers.</p> 
+
+                <p>12. The understandability of what the images serve to the website in terms of what they are trying to portray. Can’t have food pictures scattered about
+ 	                 a website solely focused on rebuilding various car engines. That way the user is getting the necessary material for what they need.</p> 
+
+                <p>13. Next, would be the usability of the hyperlinks placed throughout the page. Can’t be having page two’s hyperlink broken because of an overlooked error due
+	                 to the programmer. Must make sure that the website carries this necessary attribute.</p> 
+
+                <p>14. Another thing to keep in mind is update postage on all the webpages throughout the website. This becomes a big deal if your website is informative on a
+	                 crucial topic that the user may want to use during a presentation, or other related things.</p> 
+
+                <p>15. The website needs to have the time it was copyrighted. That way the user can know if the website is too old to use in certain manners.</p> 
+
+                <p>16. The website also needs understandable font used on the webpages for the words. Can’t be having the words be written in too wild of a font or the user
+	                 my leave the website altogether in frustration.</p> 
+
+                <p>17. Next, would be the sizing of your words in comparison to the rest of the webpage. Can’t be having the heading too small to read, and the actual informative
+	                 material too big that it fills up the page.</p> 
+
+                <p>18. ADA compliancy for people with disabilities must be included as an attribute to the website. That way anyone with a disability can navigate throughout the
+	                 website without any issues.</p> 
+
+                <p>19. The website must have the correct amount of color, and not have the color interfere with the readability of the website. Having bright yellow for the text color, 
+	                 and yellow for the rest of the website for example, would make reading very difficult.</p>
+
+                <p>20. The website must not all contain large amounts of data all on one webpage. That will make the user have to scroll for long amounts of time to get what he or she needs
+	                 from the website. One example of this is people’s stories on Facebook where their story is one large scrollable webpage.</p> 
+
+            </asp:ContentPlaceHolder>
+        </main>
+        <footer>
+            <p id="footerFormat">Copywrited &copy; 2021</p>
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

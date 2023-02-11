@@ -1,0 +1,52 @@
+﻿#wrapper {
+    width: 1000px;
+    border: thick solid black;
+    margin: 0 auto;
+}
+
+#footerFormat {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#formFormat {
+    padding-left: 25em;
+}
+
+.centerBold {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.alignLink {
+    text-align: center;
+}
+
+header {
+    height: 150px;
+    border: thick solid black;
+    background-color: antiquewhite;
+}
+
+nav {
+    height: 50px;
+    padding-top: 1.5em;
+    padding-left: 2em;
+    border: thick solid black;
+    background-color: antiquewhite;
+}
+
+main {
+    min-height: 500px;
+    padding: 20px;
+    border: thick solid black;
+    background-color: antiquewhite;
+}
+
+footer {
+    height: 50px;
+    border: thick solid black;
+    background-color: antiquewhite;
+}
